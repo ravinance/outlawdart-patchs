@@ -4,29 +4,13 @@ Utiliser le Patch builder Pour Creer un Patch
 lancer le Patch builder en SHell
 
 
-// etape 1 gerer les manifest des version 
-generate_manifest("builds/build_1.04", "manifest_1.04.json")  // exemple pour generer le manifest du build1.04
-generate_manifest("builds/build_1.05", "manifest_1.05.json")  // exemple pour generer le manifest du build1.05
+// etape 1 ouvrir Python dans le bon repertoire de Outlaw patch builder 
+
+tapper python build_patch.py 
 
 
 
-// etape 2 Creer le patch 
-create_patch(
-    "manifest_1.04.json",
-    "manifest_1.05.json",
-    "builds/build_1.05",              # ← on copie depuis le build cible
-    "patch_1.04_to_1.05"              # ← dossier où seront mis les fichiers modifiés
-)
-
-
-
-// etape 3  Zipper le patch a la racine
-cd patch_1.04_to_1.05
-zip -r ../patch_1.04_to_1.05.zip .
-
-
-
-Etape 4   (mettre le patch en ligne)
+Etape 2   (mettre le patch en ligne)
 mettre le fichier.zip dans le repo : Outlawdart-patchs
 Faire un release sur Github du patch 
 copier le lien 
