@@ -1,12 +1,14 @@
 ** MANUEL POUR UPDATE ** 
 
-Utiliser le Patch builder Pour Creer un Patch 
-lancer le Patch builder en SHell
+// ETAPE 1 
+Faire un Build et le mettre dans OutlawPatchBuilder/builds/build_vx.x
 
+// ETAPE 2 
+- Utiliser le Patch builder Pour Creer un Patch 
+- lancer le Patch builder en SHell
+ - ouvrir Python dans le bon repertoire de Outlaw patch builder 
 
-// etape 1 ouvrir Python dans le bon repertoire de Outlaw patch builder 
-
-tapper python build_patch.py 
+tapper :  python build_patch.py 
 
 
 
