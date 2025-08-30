@@ -40,7 +40,13 @@
     "1.073": {
       "next": "1.074",
   "url": "https://github.com/ravinance/outlawdart-patchs/releases/download/Patch1.074/patch_.073_to_.074.zip"
-    }
+    },
    
+"1.074": {
+      "next": "1.075",
+  "url": "https://github.com/ravinance/outlawdart-patchs/releases/download/Patch1.075/patch_.074_to_.075.zip"
+    }
+
+
   }
 }
