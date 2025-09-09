@@ -50,7 +50,13 @@
     "1.075": {
       "next": "1.076",
   "url": "https://github.com/ravinance/outlawdart-patchs/releases/download/Patch1.076/patch_.075_to_.076.zip"
+    },
+
+ "1.076": {
+      "next": "1.077",
+  "url": "https://github.com/ravinance/outlawdart-patchs/releases/download/Patch1.077/patch_.076_to_0.77.zip"
     }
+
 
   }
 }
