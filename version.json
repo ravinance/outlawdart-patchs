@@ -80,6 +80,11 @@
     "1.081": {
       "next": "1.082",
   "url": "https://github.com/ravinance/outlawdart-patchs/releases/download/Patch1.082/patch_.081_to_.082.zip"
+    },
+
+     "1.082": {
+      "next": "1.083",
+  "url": "https://github.com/ravinance/outlawdart-patchs/releases/download/Patch1.083/patch_.082_to_.083.zip"
     }
   }
 }
